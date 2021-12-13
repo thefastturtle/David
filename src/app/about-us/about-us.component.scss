@@ -1,0 +1,64 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.group {
+  align-items: stretch;
+  position: relative;
+  padding: 24px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+  background-color: hsla(var(--igx-secondary-300));
+  border-color: hsla(var(--igx-secondary-700));
+  border-style: solid;
+}
+.image {
+  min-width: 0;
+  min-height: 0;
+  top: -0.03178382165650939px;
+  left: 29.49335644908788px;
+  width: 314px;
+  height: 235px;
+  flex-shrink: 0;
+  object-fit: cover;
+  position: absolute;
+}
+.text {
+  top: 383.4127026390782px;
+  left: 3.5068694439130916px;
+  min-width: min-content;
+  height: max-content;
+  color: hsla(var(--igx-primary-700));
+  position: absolute;
+}
+.h1 {
+  top: 26.37655448913584px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: min-content;
+  height: max-content;
+  color: hsla(var(--igx-primary-700));
+  position: absolute;
+}
+.text_1 {
+  top: 239.93797078083477px;
+  left: 4.258229049210696px;
+  width: 364px;
+  min-width: min-content;
+  height: max-content;
+  color: hsla(var(--igx-primary-700));
+  position: absolute;
+}
+.button-group {
+  top: 620.7583988425656px;
+  left: 36.90334021184862px;
+  position: absolute;
+  height: auto;
+  min-width: min-content;
+}
+.row {
+  display: flex;
+}

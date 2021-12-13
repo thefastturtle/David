@@ -1,0 +1,71 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.h6 {
+  top: 1.7823291591311325px;
+  left: 80.99488536649548px;
+  position: fixed;
+  color: hsla(var(--igx-primary-800));
+  z-index: 1;
+  height: max-content;
+  min-width: min-content;
+}
+.h5 {
+  top: 31.117709266627134px;
+  left: 43.141923918809844px;
+  width: 218px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
+.text {
+  top: 137.02447870202488px;
+  width: 268px;
+  left: 50%;
+  color: hsla(var(--igx-primary-400));
+  transform: translateX(-50%);
+  text-align: center;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
+.text_1 {
+  top: 275.02688240852734px;
+  width: 308px;
+  left: 50%;
+  color: hsla(var(--igx-primary-400));
+  transform: translateX(-50%);
+  text-align: center;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
+.group {
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  background-color: hsla(var(--igx-secondary-300));
+  border-color: hsla(var(--igx-secondary-200));
+  border-style: solid;
+}
+.button-group {
+  top: 630.0102287764404px;
+  left: 44.0273015916962px;
+  position: fixed;
+  height: auto;
+  min-width: min-content;
+  z-index: 1;
+}
+.icon {
+  top: 29.817380792740234px;
+  left: 260.1650770717492px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  font-size: 36px;
+  color: hsla(var(--igx-primary-900));
+}

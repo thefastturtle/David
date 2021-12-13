@@ -1,0 +1,81 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.h6 {
+  top: 1.7823291591311325px;
+  left: 80.99488536649548px;
+  position: fixed;
+  color: hsla(var(--igx-primary-800));
+  z-index: 1;
+  height: max-content;
+  min-width: min-content;
+}
+.h5 {
+  top: 31.117709266627134px;
+  left: 43.141923918809844px;
+  width: 218px;
+  height: max-content;
+  min-width: min-content;
+  position: absolute;
+}
+.image {
+  top: 98px;
+  left: 45.50388605845092px;
+  height: 165px;
+  width: 284px;
+  min-width: 0;
+  min-height: 0;
+  object-fit: cover;
+  position: absolute;
+}
+.image_1 {
+  top: 447px;
+  height: 155px;
+  width: 283px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 0;
+  min-height: 0;
+  object-fit: cover;
+  position: absolute;
+}
+.image_2 {
+  top: 275.01909822983174px;
+  height: 163px;
+  left: 50%;
+  width: 284px;
+  transform: translateX(-50%);
+  min-width: 0;
+  min-height: 0;
+  object-fit: cover;
+  position: absolute;
+}
+.group {
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  background-color: hsla(var(--igx-secondary-300));
+  border-color: hsla(var(--igx-secondary-200));
+  border-style: solid;
+}
+.button-group {
+  top: 630.0102287764404px;
+  left: 44.0273015916962px;
+  position: fixed;
+  height: auto;
+  min-width: min-content;
+  z-index: 1;
+}
+.icon {
+  top: 29.817380792740234px;
+  left: 260.1650770717492px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  font-size: 36px;
+  color: hsla(var(--igx-primary-900));
+}
